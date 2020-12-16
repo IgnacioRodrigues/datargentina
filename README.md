@@ -1,3 +1,21 @@
+## Data Argetina
+
+Un proyecto que busca centralizar información sobre la República Argentina con el objetivo de tener un lugar donde se pueda verificar datos claves de forma rapida y clara. El mismo proporcionara una API (Interfaz de programación de aplicaciones) para que todas las personas puedan acceder de forma publica para su difusión y/o utilización en diferentes proyectos.
+
+## Datos que contendra el proyecto
+- Datos Geograficos
+- Datos Biodiversidad natural
+- Biografia de personas 
+- Hechos que hayan ocurrido en la República Argentina
+- Partidos políticos
+- Cultura Argentina
+- Municipios
+- Imagenes 
+
+## Colaboración
+
+En el siguiente instructivo se muestra como instalar el proyecto localmente.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
