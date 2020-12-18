@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Features from './components/Features'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <div className="space-y-20 sm:space-y-32 md:space-y-40 lg:space-y-44 overflow-hidden">
         <Header />
         <Hero />
+        <Features />
       </div>
     </div>
   )
