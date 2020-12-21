@@ -21,7 +21,7 @@ export default function Header() {
             </span>
           </button>
           <div class="flex space-x-6 sm:space-x-10">
-            <a class="text-base leading-6 font-medium hover:text-gray-600 transition-colors duration-200" href="/docs">
+            <a class="text-base leading-6 font-medium hover:text-gray-600 transition-colors duration-200" href="#">
               <span class="sm:hidden">Docs</span>
               <span class="hidden sm:inline">Documentación</span>
             </a>
