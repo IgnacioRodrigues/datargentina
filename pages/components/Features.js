@@ -2,12 +2,12 @@ export default function Features() {
   return (
     <div className="w-full">
       <div className="py-10 text-center">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl leading-none font-extrabold tracking-tight text-gray-900">Explorar por categoría</h2>
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl leading-none font-extrabold tracking-tight text-gray-900">Filtrar por categoría</h2>
       </div>
       <div className="relative max-w-screen-lg xl:max-w-screen-xl mx-auto w-full">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 xl:gap-8 px-4 pb-10">
           <section className="flex">
-            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
+            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg transition hover:shadow-2xl">
               <div className="w-full flex md:flex-col bg-gradient-to-br from-blue-400 to-blue-500">
                 <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                   <h2 className="text-xl font-semibold mb-2 text-shadow">Hechos historicos</h2>
@@ -18,7 +18,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
+            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg transition hover:shadow-2xl">
               <div className="w-full flex md:flex-col bg-gradient-to-br from-purple-500 to-purple-700">
                 <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                   <h2 className="text-xl font-semibold mb-2 text-shadow">Datos geográficos</h2>
@@ -29,7 +29,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
+            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg transition hover:shadow-2xl">
               <div className="w-full flex md:flex-col bg-gradient-to-br from-pink-500 to-pink-700">
                 <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                   <h2 className="text-xl font-semibold mb-2 text-shadow">Biografías</h2>
@@ -40,7 +40,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
+            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg transition hover:shadow-2xl">
               <div className="w-full flex md:flex-col bg-gradient-to-br from-yellow-400 to-yellow-600">
                 <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                   <h2 className="text-xl font-semibold mb-2 text-shadow">Fechas importantes</h2>
@@ -51,7 +51,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
+            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg transition hover:shadow-2xl">
               <div className="w-full flex md:flex-col bg-gradient-to-br from-red-500 to-red-700">
                 <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                   <h2 className="text-xl font-semibold mb-2 text-shadow">Centros de educación</h2>
@@ -62,7 +62,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
+            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg transition hover:shadow-2xl">
               <div className="w-full flex md:flex-col bg-gradient-to-br from-green-500 to-green-700">
                 <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                   <h2 className="text-xl font-semibold mb-2 text-shadow">Hospitales, Guardias y Clinicas</h2>
@@ -73,7 +73,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
+            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg transition hover:shadow-2xl">
               <div className="w-full flex md:flex-col bg-gradient-to-br from-pink-500 to-pink-700">
                 <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                   <h2 className="text-xl font-semibold mb-2 text-shadow">Medios de comunicación</h2>
@@ -84,7 +84,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
+            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg transition hover:shadow-2xl">
               <div className="w-full flex md:flex-col bg-gradient-to-br from-blue-400 to-blue-500">
                 <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                   <h2 className="text-xl font-semibold mb-2 text-shadow">Instituciones Gubernamentales</h2>
@@ -95,7 +95,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
+            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg transition hover:shadow-2xl">
               <div className="w-full flex md:flex-col bg-gradient-to-br from-purple-500 to-purple-700">
                 <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                   <h2 className="text-xl font-semibold mb-2 text-shadow">Política</h2>
@@ -106,7 +106,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
+            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg transition hover:shadow-2xl">
               <div className="w-full flex md:flex-col bg-gradient-to-br from-green-500 to-green-700">
                 <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                   <h2 className="text-xl font-semibold mb-2 text-shadow">Flora y Fauna</h2>
@@ -117,7 +117,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
+            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg transition hover:shadow-2xl">
               <div className="w-full flex md:flex-col bg-gradient-to-br from-yellow-400 to-yellow-600">
                 <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                   <h2 className="text-xl font-semibold mb-2 text-shadow">Deporte</h2>
@@ -128,7 +128,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
+            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg transition hover:shadow-2xl">
               <div className="w-full flex md:flex-col bg-gradient-to-br from-red-500 to-red-700">
                 <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                   <h2 className="text-xl font-semibold mb-2 text-shadow">Entretenimiento y centros recreativos</h2>
@@ -139,7 +139,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
+            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg transition hover:shadow-2xl">
               <div className="w-full flex md:flex-col bg-gradient-to-br from-blue-400 to-blue-500">
                 <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                   <h2 className="text-xl font-semibold mb-2 text-shadow">Símbolos nacionales</h2>
@@ -150,7 +150,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
+            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg transition hover:shadow-2xl">
               <div className="w-full flex md:flex-col bg-gradient-to-br from-pink-500 to-pink-700">
                 <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                   <h2 className="text-xl font-semibold mb-2 text-shadow">Economía</h2>
@@ -161,7 +161,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
+            <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg transition hover:shadow-2xl">
               <div className="w-full flex md:flex-col bg-gradient-to-br from-green-500 to-green-700">
                 <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                   <h2 className="text-xl font-semibold mb-2 text-shadow">Población y cultura</h2>
