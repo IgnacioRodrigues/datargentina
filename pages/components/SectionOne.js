@@ -17,7 +17,7 @@ export default function SectionOne() {
                 <div class="slider_wrapper">
                   <img src="./images/sarmiento.jpg" alt="Sarmiento" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 7.5 + 'px', animationDelay: -115322 + 'ms' }} />
                   <img src="./images/galperin.jpg" alt="Marcos Galperin" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 334.5 + 'px', animationDelay: -179085 + 'ms' }} />
-                  <img src="./images/julioroca.jpg" alt="Julio Argentino Roca" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 41.5 + 'px', animationDelay: -254136 + 'ms'}} />
+                  <img src="./images/maria-remedios-del-valle.jpg" alt="Maria Remedios del Valle" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 41.5 + 'px', animationDelay: -254136 + 'ms'}} />
                   <img src="./images/cavallo.jpg" alt="Domingo Cavallo" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 296.5 + 'px', animationDelay: -274983 + 'ms' }} />
                   <img src="./images/benegaslynch.jpg" alt="Benegas Lynch" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 318.5 + 'px', animationDelay: -230949 + 'ms' }} />
                   <img src="./images/avellaneda.jpg" alt="Nicolas Avellaneda" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 188.5 + 'px', animationDelay: -80847 + 'ms'}} />
@@ -36,7 +36,7 @@ export default function SectionOne() {
                   <img src="./images/sarmiento.jpg" alt="Sarmiento" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1340 + 'px', top: 0 + 'px', animationDelay: -32847 + 'ms'}} />
                   <img src="./images/sanmartin.jpg" alt="San Martin" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1340 + 'px', top: 282 + 'px', animationDelay: -146441 + 'ms'}} />
                   <img src="./images/alberdi.jpg" alt="Juan Bautista Alberdi" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1340 + 'px', top: 233 + 'px', animationDelay: -196169 + 'ms'}} />
-                  <img src="./images/maria-remedios-del-valle.jpg" alt="Maria Remedios del Valle" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1040 + 'px', top: 180 + 'px', animationDelay: -217119 + 'ms'}} />
+                  <img src="./images/julioroca.jpg" alt="Julio Argentino Roca" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1040 + 'px', top: 180 + 'px', animationDelay: -217119 + 'ms'}} />
                   <img src="./images/mitre.jpg" alt="Bartolome Mitre" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1340 + 'px', top: 22 + 'px', animationDelay: -231458 + 'ms'}} />
                   <img src="./images/guemes.jpg" alt="Martin Miguel de Güemes" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1340 + 'px', top: 122 + 'px', animationDelay: -269898 + 'ms'}} />
                   <img src="./images/belgrano.jpeg" alt="Manuel Belgrano" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1340 + 'px', top: 0 + 'px', animationDelay: -283017 + 'ms'}} />
