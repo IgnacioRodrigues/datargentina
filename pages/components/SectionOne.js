@@ -4,14 +4,14 @@ export default function SectionOne() {
   return (
     <>
       <section className="w-full">
-        <div className="relative max-w-screen-lg xl:max-w-screen-xl mx-auto w-full">
+        <div className="relative w-full">
           <div className="flex justify-between items-center">
-            <div className="p-4">
+            <div className="p-4 max-w-screen-lg xl:max-w-screen-xl mx-auto text-center">
               <h3 className="font-evangelina text-3xl sm:text-4xl lg:text-5xl leading-none font-extrabold tracking-tight text-gray-900">Muchas historias, un solo país</h3>
               <p className="text-gray-700 max-w-screen-lg text-lg sm:text-2xl sm:leading-10 font-normal mb-10 sm:mb-11">Muchas visiones, mucho conocimiento fragmentado y un lugar para compartirlo entre todos.</p>
             </div>
           </div>
-          <div className="h-96 relative">
+          <div className="w-ful h-96 relative">
             <div className="flags_container">
               <div className="flags_background">
                 <div className="slider_wrapper">
@@ -68,7 +68,7 @@ export default function SectionOne() {
               user-select: none;
             }
             .slider_wrapper {
-              width: 2800px;
+              width: 100%;
               height: 800px;
               position: relative;
               left: 50px;
