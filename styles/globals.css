@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'Analogue';
-  src:  url('../public/fonts/analogue/analogue-webfont.ttf') format('ttf'),
-        url('../public/fonts/analogue/analogue-webfont.woff2') format('woff2'),
-        url('../public/fonts/analogue/analogue-webfont.woff') format('woff');
+  src:  url('../fonts/analogue/analogue-webfont.ttf') format('ttf'),
+        url('../fonts/analogue/analogue-webfont.woff2') format('woff2'),
+        url('../fonts/analogue/analogue-webfont.woff') format('woff');
 }
 @font-face {
   font-family: 'Evangelina';
-  src:  url('../public/fonts/evangelina/evangelina-webfont.ttf') format('ttf'),
-        url('../public/fonts/evangelina/evangelina-webfont.woff2') format('woff2'),
-        url('../public/fonts/evangelina/evangelina-webfont.woff') format('woff');
+  src:  url('../fonts/evangelina/evangelina-webfont.ttf') format('ttf'),
+        url('../fonts/evangelina/evangelina-webfont.woff2') format('woff2'),
+        url('../fonts/evangelina/evangelina-webfont.woff') format('woff');
 }
 @font-face {
   font-family: 'Tangerine';
-  src:  url('../public/fonts/tangerine/tangerine-webfont.ttf') format('ttf'),
-        url('../public/fonts/tangerine/tangerine-webfont.woff2') format('woff2'),
-        url('../public/fonts/tangerine/tangerine-webfont.woff') format('woff');
+  src:  url('../fonts/tangerine/tangerine-webfont.ttf') format('ttf'),
+        url('../fonts/tangerine/tangerine-webfont.woff2') format('woff2'),
+        url('../fonts/tangerine/tangerine-webfont.woff') format('woff');
 }
 html,
 body {
