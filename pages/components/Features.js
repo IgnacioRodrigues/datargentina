@@ -76,11 +76,7 @@ export default function Features() {
             <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-2xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                 <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                    <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
-                  </svg>
+                  <img src="./images/icons/education.svg" />
                 </div>
                 <h2 className="font-evangelina text-3xl text-gray-900 font-semibold mt-2 mb-1 text-shadow">Centros educativos</h2>
                 <p className="text-xl font-regular text-gray-700 text-shadow mb-4">Conoce los centros educativos físicos y digitales de la Argentina.</p>
