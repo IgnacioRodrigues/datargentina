@@ -7,14 +7,14 @@ export default function SectionOne() {
         <div className="relative max-w-screen-lg xl:max-w-screen-xl mx-auto w-full">
           <div className="flex justify-between items-center">
             <div className="p-4">
-              <h3 className="text-3xl sm:text-4xl lg:text-5xl leading-none font-extrabold tracking-tight text-gray-900">Muchas historias, un solo país</h3>
-              <p className="max-w-screen-lg text-lg sm:text-2xl sm:leading-10 font-normal mb-10 sm:mb-11">Muchas visiones, mucho conocimiento fragmentado y un lugar para compartirlo entre todos.</p>
+              <h3 className="font-evangelina text-3xl sm:text-4xl lg:text-5xl leading-none font-extrabold tracking-tight text-gray-900">Muchas historias, un solo país</h3>
+              <p className="text-gray-700 max-w-screen-lg text-lg sm:text-2xl sm:leading-10 font-normal mb-10 sm:mb-11">Muchas visiones, mucho conocimiento fragmentado y un lugar para compartirlo entre todos.</p>
             </div>
           </div>
           <div className="h-96 relative">
-            <div class="flags_container">
-              <div class="flags_background">
-                <div class="slider_wrapper">
+            <div className="flags_container">
+              <div className="flags_background">
+                <div className="slider_wrapper">
                   <img src="./images/sarmiento.jpg" alt="Sarmiento" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 7.5 + 'px', animationDelay: -115322 + 'ms' }} />
                   <img src="./images/galperin.jpg" alt="Marcos Galperin" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 334.5 + 'px', animationDelay: -179085 + 'ms' }} />
                   <img src="./images/maria-remedios-del-valle.jpg" alt="Maria Remedios del Valle" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 41.5 + 'px', animationDelay: -254136 + 'ms'}} />
