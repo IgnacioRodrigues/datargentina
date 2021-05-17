@@ -8,12 +8,7 @@ export default function Footer() {
           <ul className="text-sm font-medium flex justify-between">
             <li className="space-y-5 row-span-2">
               <div className="flex items-center">
-                <Image
-                  src="/logo.png"
-                  alt="Data Argentina"
-                  width={50}
-                  height={50}
-                />
+                <img src="https://datargentina.org/images/logo.png" className="w-10 h-10" alt="Data Argentina" />
                 <a className="hover:text-gray-900 transition-colors duration-200 ml-4" href="#">Data Argentina</a>
               </div>
             </li>

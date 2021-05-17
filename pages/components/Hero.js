@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="px-4 sm:px-6 md:px-8 mb-14 sm:mb-20 xl:mb-8">
         <div className="flex flex-col justify-center items-center md:justify-start md:flex-row md:items-start">
           <div className="flex flex-1 justify-center">
-            <img src="https://datargentina.org/logo.png" className="w-15 h-15" alt="Data Argentina" />
+            <img src="https://datargentina.org/images/logo.png" className="w-15 h-15" alt="Data Argentina" />
           </div>
           <div className="max-w-4xl mt-10 md:mt-0 md:pl-10 text-center md:text-left ">
             <h1 className="font-evangelina text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold tracking-tight text-gray-900 mb-8 sm:mb-10">Información libre sobre<br/> la República Argentina.</h1>
