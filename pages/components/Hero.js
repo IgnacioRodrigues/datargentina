@@ -11,8 +11,8 @@ export default function Hero() {
             </div>
           </div>
           <div className="max-w-4xl mt-10 md:mt-0 md:pl-10 text-center md:text-left ">
-            <h1 className="font-evangelina text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold tracking-tight text-gray-900 mb-8 sm:mb-10">Información libre sobre<br/> la República Argentina</h1>
-            <p className="max-w-screen-lg text-gray-7 text-lg sm:text-2xl sm:leading-10 font-normal mb-10 sm:mb-11">Biblioteca de libre acceso la cual contiene información sobre la República Argentina. Entre ellos se encuentrán <span className="font-medium">fechas relevantes</span>, <span className="font-medium">hechos históricos</span>, <span className="font-medium">datos geográficos</span>, <span className="font-medium">biografías de personas</span>, <span className="font-medium">cultura</span>, <span className="font-medium">datos naturales</span> y mucho más.</p>
+            <h1 className="font-evangelina text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold tracking-tight text-gray-900 mb-8 sm:mb-10">Información sobre<br/> la República Argentina</h1>
+            <p className="max-w-screen-lg text-gray-7 text-lg sm:text-2xl sm:leading-10 font-normal mb-10 sm:mb-11">Organizamos la Información del país para que puedas acceder de forma fácil y sencilla. Encontrarás <span className="font-medium">hechos historicos</span>, <span className="font-medium">fechas relevantes</span>, <span className="font-medium">datos geográficos</span>, <span className="font-medium">biografías</span>, <span className="font-medium">instituciones</span>, <span className="font-medium">datos naturales</span> y mucho más.</p>
             <a className="w-full sm:w-auto flex-none bg-blue-400 hover:bg-blue-500 text-white text-lg leading-6 font-semibold py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 focus:outline-none transition-colors duration-200" href="#">Ir a la biblioteca</a>
           </div>
         </div>
