@@ -11,9 +11,9 @@
 }
 @font-face {
   font-family: 'Evangelina';
-  src:  url('/fonts/evangelina/evangelina-webfont.ttf') format('ttf'),
-        url('/fonts/evangelina/evangelina-webfont.woff2') format('woff2'),
-      url('/fonts/evangelina/evangelina-webfont.woff') format('woff');
+  src:  url('/fonts/evangelina/EvangelinaRegular.ttf') format('ttf'),
+        url('/fonts/evangelina/EvangelinaRegular.woff2') format('woff2'),
+      url('/fonts/evangelina/EvangelinaRegular.woff') format('woff');
   font-display: swap;
 }
 @font-face {
