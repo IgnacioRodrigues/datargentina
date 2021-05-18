@@ -4,7 +4,7 @@ export default function Features() {
   return (
     <div className="w-full">
       <div className="py-10 text-center">
-        <h2 className="font-analogue text-3xl sm:text-4xl lg:text-5xl leading-none font-extrabold tracking-tight text-gray-900">Filtrar por categoría</h2>
+        <h2 className="font-evangelina text-3xl sm:text-4xl lg:text-5xl leading-none font-extrabold tracking-tight text-gray-900">Filtrar por categoría</h2>
       </div>
       <div className="relative max-w-screen-lg xl:max-w-screen-xl mx-auto w-full">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 xl:gap-8 px-4 pb-10">
