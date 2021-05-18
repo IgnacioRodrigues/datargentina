@@ -9,7 +9,7 @@ export default function Features() {
       <div className="relative max-w-screen-lg xl:max-w-screen-xl mx-auto w-full">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 xl:gap-8 px-4 pb-10">
           <section className="flex">
-            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-2xl hover:bg-gray-100">
+            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                 <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
                   <BookOpenIcon className="h-8 w-8 text-blue-500" />
@@ -25,7 +25,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-2xl hover:bg-gray-100">
+            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                 <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
                   <MapIcon className="h-8 w-8 text-blue-500" />
@@ -41,7 +41,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-2xl hover:bg-gray-100">
+            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                 <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
                   <BadgeCheckIcon className="h-8 w-8 text-blue-500" />
@@ -57,7 +57,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-2xl hover:bg-gray-100">
+            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                 <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
                   <CalendarIcon className="h-8 w-8 text-blue-500" />
@@ -73,7 +73,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-2xl hover:bg-gray-100">
+            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                 <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
                   <BookmarkAltIcon className="h-8 w-8 text-blue-500" />
@@ -89,7 +89,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-2xl hover:bg-gray-100">
+            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                 <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
                   <HeartIcon className="h-8 w-8 text-blue-500" />
@@ -105,7 +105,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-2xl hover:bg-gray-100">
+            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                 <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
                   <HandIcon className="h-8 w-8 text-blue-500" />
@@ -121,7 +121,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-2xl hover:bg-gray-100">
+            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                 <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
                   <LibraryIcon className="h-8 w-8 text-blue-500"/>
@@ -137,7 +137,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-2xl hover:bg-gray-100">
+            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                 <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
                   <ShoppingCartIcon className="h-8 w-8 text-blue-500" />
@@ -153,7 +153,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-2xl hover:bg-gray-100">
+            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                 <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
                   <PhotographIcon className="h-8 w-8 text-blue-500" />
@@ -169,7 +169,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-2xl hover:bg-gray-100">
+            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                 <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
                   <ClipboardListIcon className="h-8 w-8 text-blue-500" />
@@ -185,7 +185,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-2xl hover:bg-gray-100">
+            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                 <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
                   <FilmIcon className="h-8 w-8 text-blue-500" />
@@ -201,7 +201,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-2xl hover:bg-gray-100">
+            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                 <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
                   <FlagIcon className="h-8 w-8 text-blue-500" />
@@ -217,7 +217,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-2xl hover:bg-gray-100">
+            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                 <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
                   <CheckCircleIcon className="h-8 w-8 text-blue-500" />
@@ -233,7 +233,7 @@ export default function Features() {
             </div>
           </section>
           <section className="flex">
-            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-2xl hover:bg-gray-100">
+            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                 <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
                   <UserGroupIcon className="h-8 w-8 text-blue-500" />
