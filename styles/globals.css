@@ -1,3 +1,7 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 @font-face {
   font-family: 'Analogue';
   src:  url('../fonts/analogue/analogue-webfont.ttf') format('ttf'),
@@ -16,6 +20,7 @@
         url('../fonts/tangerine/tangerine-webfont.woff2') format('woff2'),
         url('../fonts/tangerine/tangerine-webfont.woff') format('woff');
 }
+
 html,
 body {
   padding: 0;

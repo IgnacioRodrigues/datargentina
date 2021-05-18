@@ -11,7 +11,9 @@ export default function Features() {
           <section className="flex">
             <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-2xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
-                <img src="./images/icons/book.png" className="w-16 h-16" alt="icon" />
+                <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
+                  <BookOpenIcon className="h-8 w-8 text-blue-500" />
+                </div>
                 <h2 className="font-evangelina text-3xl text-gray-900 font-semibold mt-2 mb-1 text-shadow">Hechos historicos</h2>
                 <p className="text-xl font-regular text-gray-700 text-shadow mb-4">Explora la historia, datos, sucesos e información relevante.</p>
                 <div className="w-full flex justify-end">
@@ -25,7 +27,9 @@ export default function Features() {
           <section className="flex">
             <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-2xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
-                <img src="./images/icons/map.png" className="w-16 h-16" alt="icon" />
+                <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
+                  <MapIcon className="h-8 w-8 text-blue-500" />
+                </div>
                 <h2 className="font-evangelina text-3xl text-gray-900 font-semibold mt-2 mb-1 text-shadow">Datos geográficos</h2>
                 <p className="text-xl font-regular text-gray-700 text-shadow mb-4">Accede a información geográfica del territorio argentino.</p>
                 <div className="w-full flex justify-end">
@@ -71,7 +75,9 @@ export default function Features() {
           <section className="flex">
             <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-2xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
-                <img src="./images/icons/education.png" className="w-16 h-16" alt="icon" />
+                <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
+                  <BookmarkAltIcon className="h-8 w-8 text-blue-500" />
+                </div>
                 <h2 className="font-evangelina text-3xl text-gray-900 font-semibold mt-2 mb-1 text-shadow">Centros educativos</h2>
                 <p className="text-xl font-regular text-gray-700 text-shadow mb-4">Conoce los centros educativos físicos y digitales de la Argentina.</p>
                 <div className="w-full flex justify-end">

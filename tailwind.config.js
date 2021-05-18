@@ -1,3 +1,4 @@
+
 module.exports = {
   purge: ['./pages/**/*.js', './components/**/*.js'],
   darkMode: false, // or 'media' or 'class'
@@ -7,10 +8,13 @@ module.exports = {
       analogue: ['Analogue'],
       evangelina: ['Evangelina'],
       tangerine: ['Tangerine']
-    },
+    }
   },
   variants: {
-    extend: {},
+    extend: {
+      borderColor: ['focus-visible'],
+      opacity: ['disabled'],
+    },
   },
   plugins: [],
 }
