@@ -92,7 +92,22 @@ export default function SectionOne() {
               0%{transform:translateX(1600px)}
               to{transform:translateX(-1600px)}
             }
+            
+            @font-face {
+              font-family: 'Evangelina';
+              src: url('/fonts/analogue/EvangelinaRegular.woff2') format('woff2'),
+                  url('/fonts/analogue/EvangelinaRegular.woff') format('woff'),
+                  url('/fonts/analogue/EvangelinaRegular.ttf') format('truetype'),
+                  url('/fonts/analogue/EvangelinaRegular.svg#EvangelinaRegular') format('svg');
+              font-weight: normal;
+              font-style: normal;
+              font-display: swap;
+            }
+            .font-evangelina {
+              font-family: 'Evangelina';
+            }
           `}</style>
+          
         </div>
       </section>
     </>
