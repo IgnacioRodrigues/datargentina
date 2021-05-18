@@ -4,26 +4,26 @@
 
 @font-face {
   font-family: 'Analogue';
-  src: local('Analogue'), url('/fonts/analogue/analogue-webfont.ttf') format('ttf'),
-        url('/fonts/analogue/analogue-webfont.woff2') format('woff2'),
-        url('/fonts/analogue/analogue-webfont.woff') format('woff');
+  src: local('Analogue'), url('../public/fonts/analogue/analogue-webfont.ttf') format('ttf'),
+        url('../public/fonts/analogue/analogue-webfont.woff2') format('woff2'),
+        url('../public/fonts/analogue/analogue-webfont.woff') format('woff');
   font-display: swap;
 }
 @font-face {
   font-family: 'Evangelina';
-    src: url('/fonts/analogue/EvangelinaRegular.woff2') format('woff2'),
-        url('/fonts/analogue/EvangelinaRegular.woff') format('woff'),
-        url('/fonts/analogue/EvangelinaRegular.ttf') format('truetype'),
-        url('/fonts/analogue/EvangelinaRegular.svg#EvangelinaRegular') format('svg');
+    src: url('../public/fonts/analogue/EvangelinaRegular.woff2') format('woff2'),
+        url('../public/fonts/analogue/EvangelinaRegular.woff') format('woff'),
+        url('../public/fonts/analogue/EvangelinaRegular.ttf') format('truetype'),
+        url('../public/fonts/analogue/EvangelinaRegular.svg#EvangelinaRegular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
   font-family: 'Tangerine';
-  src: local('Tangerine'), url('/fonts/tangerine/tangerine-webfont.ttf') format('ttf'),
-        url('/fonts/tangerine/tangerine-webfont.woff2') format('woff2'),
-        url('/fonts/tangerine/tangerine-webfont.woff') format('woff');
+  src: local('Tangerine'), url('../public/fonts/tangerine/tangerine-webfont.ttf') format('ttf'),
+        url('../public/fonts/tangerine/tangerine-webfont.woff2') format('woff2'),
+        url('../public/fonts/tangerine/tangerine-webfont.woff') format('woff');
   font-display: swap;
 }
 
