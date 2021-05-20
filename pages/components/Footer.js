@@ -12,12 +12,6 @@ export default function Footer() {
                 <a className="hover:text-gray-900 transition-colors duration-200 ml-4" href="#">Data Argentina</a>
               </div>
             </li>
-            <li className="space-y-5 row-span-2">
-                <ul className="space-y-4">
-                  <li><a className="hover:text-gray-900 transition-colors duration-200" href="https://github.com/ignaciorodrigues/datargentina">Github</a></li>
-                  <li><a className="hover:text-gray-900 transition-colors duration-200" href="https://github.com/ignaciorodrigues/datargentina">Colaboración</a></li>
-                </ul>
-            </li>
           </ul>
       </div>
     </footer>
