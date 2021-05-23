@@ -1,10 +1,10 @@
-import { BookOpenIcon, ArrowSmRightIcon, MapIcon, BadgeCheckIcon, CalendarIcon, BookmarkAltIcon, HeartIcon, HandIcon, LibraryIcon, ShoppingCartIcon, PhotographIcon, ClipboardListIcon, FilmIcon, FlagIcon, CheckCircleIcon, UserGroupIcon } from '@heroicons/react/outline';
+import { BookOpenIcon, LocationMarkerIcon, ArrowSmRightIcon, MapIcon, BadgeCheckIcon, CalendarIcon, BookmarkAltIcon, HeartIcon, HandIcon, LibraryIcon, ShoppingCartIcon, PhotographIcon, ClipboardListIcon, FilmIcon, FlagIcon, CheckCircleIcon, UserGroupIcon, DeviceMobileIcon } from '@heroicons/react/outline';
 
 export default function Features() {
   return (
     <div className="w-full">
       <div className="py-10 text-center">
-        <h2 className="font-evangelina text-3xl sm:text-4xl lg:text-5xl leading-none font-extrabold tracking-tight text-gray-900">Filtrar por categoría</h2>
+        <h2 className="font-evangelina text-3xl sm:text-4xl lg:text-5xl leading-none font-extrabold tracking-tight text-gray-900">Todas las categorías  </h2>
       </div>
       <div className="relative max-w-screen-lg xl:max-w-screen-xl mx-auto w-full">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 xl:gap-8 px-4 pb-10">
@@ -12,10 +12,42 @@ export default function Features() {
             <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                 <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
-                  <BookOpenIcon className="h-8 w-8 text-blue-500" />
+                  <LocationMarkerIcon className="h-8 w-8 text-blue-500" />
                 </div>
-                <h2 className="font-evangelina text-3xl text-gray-900 font-semibold mt-2 mb-1 text-shadow">Hechos historicos</h2>
-                <p className="text-xl font-regular text-gray-700 text-shadow mb-4">Explora la historia, datos, sucesos e información relevante.</p>
+                <h2 className="font-evangelina text-3xl text-gray-900 font-semibold mt-2 mb-1 text-shadow">Códigos postales</h2>
+                <p className="text-xl font-regular text-gray-700 text-shadow mb-4">Código postal de lugares de Argentina para facilitar y mecanizar el encaminamiento de una pieza de correo.</p>
+                <div className="w-full flex justify-end">
+                  <a className="text-black underline font-bold p-3 rounded-full transition hover:shadow-lg hover:bg-blue-100" href="#">
+                    <ArrowSmRightIcon className="h-6 w-6 text-blue-500" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="flex">
+            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
+              <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
+                <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
+                  <DeviceMobileIcon className="h-8 w-8 text-blue-500" />
+                </div>
+                <h2 className="font-evangelina text-3xl text-gray-900 font-semibold mt-2 mb-1 text-shadow">Códigos de área</h2>
+                <p className="text-xl font-regular text-gray-700 text-shadow mb-4">Prefijo telefónico numérico correspondiente a la localidad o región.</p>
+                <div className="w-full flex justify-end">
+                  <a className="text-black underline font-bold p-3 rounded-full transition hover:shadow-lg hover:bg-blue-100" href="#">
+                    <ArrowSmRightIcon className="h-6 w-6 text-blue-500" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="flex">
+            <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
+              <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
+                <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
+                  <CalendarIcon className="h-8 w-8 text-blue-500" />
+                </div>
+                <h2 className="font-evangelina text-3xl text-gray-900 font-semibold mt-2 mb-1 text-shadow">Fechas importantes</h2>
+                <p className="text-xl font-regular text-gray-700 text-shadow mb-4">Accede a fechas patrias, ferias y fechas claves de la Argentina.</p>
                 <div className="w-full flex justify-end">
                   <a className="text-black underline font-bold p-3 rounded-full transition hover:shadow-lg hover:bg-blue-100" href="#">
                     <ArrowSmRightIcon className="h-6 w-6 text-blue-500" />
@@ -44,10 +76,10 @@ export default function Features() {
             <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                 <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
-                  <BadgeCheckIcon className="h-8 w-8 text-blue-500" />
+                  <BookOpenIcon className="h-8 w-8 text-blue-500" />
                 </div>
-                <h2 className="font-evangelina text-3xl text-gray-900 font-semibold mt-2 mb-1 text-shadow">Biografías</h2>
-                <p className="text-xl font-regular text-gray-700 text-shadow mb-4">Conoce las biografías de las personas que hicieron historia.</p>
+                <h2 className="font-evangelina text-3xl text-gray-900 font-semibold mt-2 mb-1 text-shadow">Hechos historicos</h2>
+                <p className="text-xl font-regular text-gray-700 text-shadow mb-4">Explora la historia, datos, sucesos e información relevante.</p>
                 <div className="w-full flex justify-end">
                   <a className="text-black underline font-bold p-3 rounded-full transition hover:shadow-lg hover:bg-blue-100" href="#">
                     <ArrowSmRightIcon className="h-6 w-6 text-blue-500" />
@@ -60,10 +92,10 @@ export default function Features() {
             <div className="cursor-pointer w-full relative text-white overflow-hidden rounded-3xl flex shadow transition rounded-3xl bg-gray-50 hover:shadow-xl hover:bg-gray-100">
               <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
                 <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-blue-100">
-                  <CalendarIcon className="h-8 w-8 text-blue-500" />
+                  <BadgeCheckIcon className="h-8 w-8 text-blue-500" />
                 </div>
-                <h2 className="font-evangelina text-3xl text-gray-900 font-semibold mt-2 mb-1 text-shadow">Fechas importantes</h2>
-                <p className="text-xl font-regular text-gray-700 text-shadow mb-4">Accede a fechas patrias, ferias y fechas claves de la Argentina.</p>
+                <h2 className="font-evangelina text-3xl text-gray-900 font-semibold mt-2 mb-1 text-shadow">Biografías</h2>
+                <p className="text-xl font-regular text-gray-700 text-shadow mb-4">Conoce las biografías de las personas que hicieron historia.</p>
                 <div className="w-full flex justify-end">
                   <a className="text-black underline font-bold p-3 rounded-full transition hover:shadow-lg hover:bg-blue-100" href="#">
                     <ArrowSmRightIcon className="h-6 w-6 text-blue-500" />

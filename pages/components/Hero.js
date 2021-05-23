@@ -5,9 +5,9 @@ export default function Hero() {
     <div className="relative z-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
       <div className="px-4 sm:px-6 md:px-8 mb-14 sm:mb-20 xl:mb-8">
         <div className="flex flex-col justify-center items-center md:justify-start md:flex-row md:items-start">
-          <div className="flex flex-1 justify-center">
-            <div className="block">
-              <img src="./images/logo.png" className="h-15" alt="Data Argentina" />
+          <div className="flex flex-1 justify-center mt-10 md:mt-0 md:pl-10">
+            <div className="block w-36">
+              <img src="./images/logo.png" className="h-36" alt="Data Argentina" />
             </div>
           </div>
           <div className="max-w-4xl mt-10 md:mt-0 md:pl-10 text-center md:text-left ">

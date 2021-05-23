@@ -7,32 +7,32 @@ export default function SectionOne() {
         <div className="relative w-full">
           <div className="flex justify-between items-center">
             <div className="p-4 max-w-screen-lg xl:max-w-screen-xl mx-auto text-center">
-              <h3 className="font-evangelina text-3xl sm:text-4xl lg:text-5xl leading-none font-extrabold tracking-tight text-gray-900">Muchas historias, un solo país</h3>
-              <p className="text-gray-700 max-w-screen-lg text-lg sm:text-2xl sm:leading-10 font-normal mb-10 sm:mb-11">Muchas visiones, mucho conocimiento fragmentado y un lugar para compartirlo entre todos.</p>
+              <h3 className="font-evangelina text-3xl sm:text-4xl lg:text-5xl leading-none font-extrabold tracking-tight text-gray-900">Información clave de Argentina para<br/> desarrollar soluciones innovadoras.</h3>
+              <p className="text-gray-700 max-w-screen-lg text-lg sm:text-2xl sm:leading-10 font-normal mb-10 sm:mb-11">Mucha información dispersa, nuestro trabajo, organizarla, y brindarla de forma sencilla para que cualquiera pueda utilizarla. Muchas visiones, mucho conocimiento fragmentado y un lugar para compartirlo entre todos.</p>
             </div>
           </div>
           <div className="w-ful h-96 relative">
             <div className="flags_container">
               <div className="flags_background">
                 <div className="slider_wrapper">
-                  <img src="./images/sarmiento.jpg" alt="Sarmiento" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 7.5 + 'px', animationDelay: -115322 + 'ms' }} />
+                  <img src="./images/cavallo.jpg" alt="Cavallo" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 7.5 + 'px', animationDelay: -115322 + 'ms' }} />
                   <img src="./images/galperin.jpg" alt="Marcos Galperin" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 334.5 + 'px', animationDelay: -179085 + 'ms' }} />
                   <img src="./images/maria-remedios-del-valle.jpg" alt="Maria Remedios del Valle" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 41.5 + 'px', animationDelay: -254136 + 'ms'}} />
                   <img src="./images/cavallo.jpg" alt="Domingo Cavallo" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 296.5 + 'px', animationDelay: -274983 + 'ms' }} />
                   <img src="./images/benegaslynch.jpg" alt="Benegas Lynch" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 318.5 + 'px', animationDelay: -230949 + 'ms' }} />
                   <img src="./images/avellaneda.jpg" alt="Nicolas Avellaneda" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 188.5 + 'px', animationDelay: -80847 + 'ms'}} />
                   <img src="./images/francisco.jpg" alt="Papa Francisco" className="slider_img shadow" style={{width: 90 + 'px', height: 90 + 'px', left: 1355 + 'px', top: 320 + 'px', animationDelay: -123051 + 'ms'}} />
-                  <img src="./images/guevara.jpg" alt="Ernesto Che Guevara" className="slider_img shadow" style={{width: 90 + 'px', height: 90 + 'px', left: 1355 + 'px', top: 148 + 'px', animationDelay: -45153 + 'ms'}} />
-                  <img src="./images/macri.jpg" alt="Mauricio Macri" className="slider_img shadow" style={{width: 90 + 'px', height: 90 + 'px', left: 1355 + 'px', top: 342 + 'px', animationDelay: -258814 + 'ms'}} />
-                  <img src="./images/kirchner.jpg" alt="Nestor Kirchener" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 296.5 + 'px', animationDelay: -274983 + 'ms'}} />
-                  <img src="./images/cristina.jpg" alt="Cristina Fernandez de Kirchener" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 318.5 + 'px', animationDelay: -230949 + 'ms'}} />
+                  <img src="./images/houssay.jpg" alt="Ernesto Che Guevara" className="slider_img shadow" style={{width: 90 + 'px', height: 90 + 'px', left: 1355 + 'px', top: 148 + 'px', animationDelay: -45153 + 'ms'}} />
+                  <img src="./images/juan-vucetich.jpg" alt="juan-vucetich" className="slider_img shadow" style={{width: 90 + 'px', height: 90 + 'px', left: 1355 + 'px', top: 342 + 'px', animationDelay: -258814 + 'ms'}} />
+                  <img src="./images/bernasconi.jpg" alt="bernasconi" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 296.5 + 'px', animationDelay: -274983 + 'ms'}} />
+                  <img src="./images/hallberg.jpg" alt="hallberg" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 318.5 + 'px', animationDelay: -230949 + 'ms'}} />
                   <img src="./images/ginobili.jpg" alt="Manuel Ginóbili" className="slider_img shadow" style={{width: 75 + 'px', height: 75 + 'px', left: 1362.5 + 'px', top: 188.5 + 'px', animationDelay: -80847 + 'ms'}} />
                   <img src="./images/menem.jpeg" alt="Carlos Menem" className="slider_img shadow" style={{width: 90 + 'px', height: 90 + 'px', left: 1355 + 'px', top: 320 + 'px', animationDelay: -123051 + 'ms'}} />
                   <img src="./images/evita.jpeg" alt="Eva Duarte de Perón" className="slider_img shadow" style={{width: 90 + 'px', height: 90 + 'px', left: 1355 + 'px', top: 148 + 'px', animationDelay: -45153 + 'ms'}} />
                   <img src="./images/yrigoyen.jpeg" alt="Hipólito Yrigoyen" className="slider_img shadow" style={{width: 90 + 'px', height: 90 + 'px', left: 1355 + 'px', top: 342 + 'px', animationDelay: -258814 + 'ms'}} />
                   <img src="./images/monzon.jpeg" alt="Carlos Monzon" className="slider_img shadow" style={{width: 90 + 'px', height: 90 + 'px', left: 1355 + 'px', top: 148 + 'px', animationDelay: -132508 + 'ms'}} />
                   <img src="./images/brown.jpg" alt="Guillermo Brown" className="slider_img shadow" style={{width: 90 + 'px', height: 90 + 'px', left: 1355 + 'px', top: 43 + 'px', animationDelay: -92237 + 'ms'}} />
-                  <img src="./images/rosas.jpg" alt="Juan Manuel de Rosas" className="slider_img shadow" style={{width: 90 + 'px', height: 90 + 'px', left: 1355 + 'px', top: 275 + 'px', animationDelay: -64373 + 'ms'}} />
+                  <img src="./images/rietti.jpg" alt="rietti" className="slider_img shadow" style={{width: 90 + 'px', height: 90 + 'px', left: 1355 + 'px', top: 275 + 'px', animationDelay: -64373 + 'ms'}} />
                   <img src="./images/sarmiento.jpg" alt="Sarmiento" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1340 + 'px', top: 0 + 'px', animationDelay: -32847 + 'ms'}} />
                   <img src="./images/sanmartin.jpg" alt="San Martin" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1340 + 'px', top: 282 + 'px', animationDelay: -146441 + 'ms'}} />
                   <img src="./images/alberdi.jpg" alt="Juan Bautista Alberdi" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1340 + 'px', top: 233 + 'px', animationDelay: -196169 + 'ms'}} />
@@ -49,6 +49,10 @@ export default function SectionOne() {
                   <img src="./images/peron.jpg" alt="Juan Domingo Perón" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1340 + 'px', top: 307 + 'px', animationDelay: -42000 + 'ms'}} />
                   <img src="./images/moreno.jpg" alt="Francisco Pascasio Moreno" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1340 + 'px', top: 211 + 'px', animationDelay: -294407 + 'ms'}} />
                   <img src="./images/messi.jpg" alt="Lionel Messi" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1222 + 'px', top: 15 + 'px', animationDelay: -202373 + 'ms'}} />
+                  <img src="./images/mercedes-sosa.jpg" alt="Mercedes Sosa" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1150 + 'px', top: 200 + 'px', animationDelay: -202373 + 'ms'}} />
+                  <img src="./images/victoria-ocampo.jpg" alt="Victoria Ocampo" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1400 + 'px', top: 50 + 'px', animationDelay: -202373 + 'ms'}} />
+                  <img src="./images/leloir.jpg" alt="Leloir" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1440 + 'px', top: 150 + 'px', animationDelay: -32847 + 'ms'}} />
+                  <img src="./images/leloir.jpg" alt="Leloir" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1440 + 'px', top: 150 + 'px', animationDelay: -32847 + 'ms'}} />
                 </div>
               </div>
             </div>
