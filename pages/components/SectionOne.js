@@ -52,7 +52,7 @@ export default function SectionOne() {
                   <img src="./images/mercedes-sosa.jpg" alt="Mercedes Sosa" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1150 + 'px', top: 200 + 'px', animationDelay: -202373 + 'ms'}} />
                   <img src="./images/victoria-ocampo.jpg" alt="Victoria Ocampo" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1400 + 'px', top: 50 + 'px', animationDelay: -202373 + 'ms'}} />
                   <img src="./images/leloir.jpg" alt="Leloir" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1440 + 'px', top: 150 + 'px', animationDelay: -32847 + 'ms'}} />
-                  <img src="./images/leloir.jpg" alt="Leloir" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1440 + 'px', top: 150 + 'px', animationDelay: -32847 + 'ms'}} />
+                  <img src="./images/kirchner.jpg" alt="Leloir" className="slider_img shadow" style={{width: 120 + 'px', height: 120 + 'px', left: 1140 + 'px', top: 350 + 'px', animationDelay: -32847 + 'ms'}} />
                 </div>
               </div>
             </div>
